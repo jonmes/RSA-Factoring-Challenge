@@ -5,7 +5,7 @@ import sys
 
 filename = sys.argv[1]
 
-with open(filename, 'r', encode='utf-u') as f:
+with open(filename, 'r', encoding='utf-8') as f:
     a = f.read()
     a_l = a.count("\n")
 lines = 0
